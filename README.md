@@ -1,5 +1,5 @@
 If you have [just](https://github.com/casey/just) installed, just run `just` in the
-command line to build and run the example.
+command line to build and run the project.
 
 Otherwise run
 
@@ -7,4 +7,4 @@ Otherwise run
 2. `mpiexec -n 6 target/release/mpi_pigreco`
 
 If 2. should fail for you with an error message telling `there are not enough slots available`,
-reduce the number for n.
+reduce the number for `mpiexec`'s argument `n`.
