@@ -1,5 +1,7 @@
-run: build
-  mpiexec -n 6 target/release/mpi_pigreco
+default: (run "6")
+
+run count: build
+  mpiexec -n {{count}} target/release/mpi_pigreco
   
 
 build:

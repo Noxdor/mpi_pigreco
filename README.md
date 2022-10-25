@@ -1,5 +1,15 @@
+## Usage
+
+### With `just`
+
 If you have [just](https://github.com/casey/just) installed, just run `just` in the
 command line to build and run the project.
+
+If `just` should fail for you with an error message telling `there are not enough slots available`,
+run `just run <n>` reducing the number for n until the command doesn't error. This number is usually
+related to your PC's count of processor cores.
+
+### Manually
 
 Otherwise run
 
